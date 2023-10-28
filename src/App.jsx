@@ -15,7 +15,7 @@ const App = () => {
 
   const showLoaderContent = (
     <div className="font-bold " style={{ display: "flex", height: "100vh", justifyContent: "center", alignItems: "center", fontSize: "8vh" }}>
-      <div>
+      <div className="mx-4">
         <h3>Change Background</h3>
         <p style={{ float: "right", fontSize: '3vh' }} className="font-bold" >by clicking below buttons</p>
       </div>
